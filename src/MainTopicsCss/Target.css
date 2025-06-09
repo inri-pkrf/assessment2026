@@ -237,15 +237,16 @@
   }
 
   .title-intro-tar {
-    font-family: 'Karantina', cursive;
-    font-size: 9vw;
+font-family: 'Karantina', cursive;
+    font-size: 5vw;
+    color: rgb(86, 195, 232);
+    font-weight: bold;
     margin-top: 29vh;
     width: 100%;
     text-align: center;
     position: absolute;
     right: 50%;
     transform: translateX(50%);
-    color: rgb(86, 195, 232);
   }
 
   .sub-intro-tar {
@@ -286,11 +287,12 @@
   }
 
   .photo-target-intro {
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-    width: 10vw;
-    top: 13vh;
+   position: absolute;
+        width: 5vw;
+        height: auto;
+        right: 50%;
+        transform: translateX(50%);
+        top: 15vh;
   }
 
   .title-Target {

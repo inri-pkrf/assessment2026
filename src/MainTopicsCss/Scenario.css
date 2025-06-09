@@ -167,17 +167,19 @@
   }
 
   .ogenIcon {
-    width: 11vw;
-    position: absolute;
-    right: 50%;
-    transform: translateX(50%);
-    top: 15vh;
+  position: absolute;
+        width: 7vw;
+        height: auto;
+        right: 50%;
+        transform: translateX(50%);
+        top: 14vh;
   }
 
   .ogen-title1 {
-    font-family: 'Karantina';
-    font-size: 9vw;
-    color: #595959;
+    font-family: 'Karantina', cursive;
+    font-size: 5vw;
+    color: rgb(86, 195, 232);
+    font-weight: bold;
     position: absolute;
     right: 50%;
     transform: translateX(50%);

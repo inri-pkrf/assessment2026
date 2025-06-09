@@ -88,12 +88,17 @@
 
 /* Desktop */
 @media screen and (min-width: 1025px) {
+
+    .home-page{
+background-color:violet ;
+    }
+
     .title {
         position: absolute;
         right: 50%;
         transform: translateX(50%);
         font-family: 'Karantina';
-        font-size: 8vw;
+        font-size: 6vw;
         color: #0b5394;
         width: 100%;
         top: 21vh;

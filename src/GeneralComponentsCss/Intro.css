@@ -232,7 +232,7 @@
 
     #logo-white {
         position: absolute;
-        width: 14vw;
+        width: 24vw;
         height: auto;
         z-index: 5;
         right: 50%;
@@ -242,22 +242,22 @@
 
     #sub-title {
         font-family: 'Karantina', Arial;
-        font-size: 8em;
+        font-size: 5em;
         color: white;
         position: absolute;
         transform: translateX(50%);
         right: 50%;
-        top: 11vh;
+        top: 17vh;
         width: 90vw;
     }
 
     #introduction-sub {
         font-family: 'Heebo', sans-serif;
-        font-size: 2.5em;
+        font-size: 1.5rem;
         color: white;
         position: absolute;
         direction: rtl;
-        margin-top: -4vh;
+        /* margin-top: -4vh; */
         width: 70vw;
         right: 50%;
         transform: translateX(50%);
@@ -270,7 +270,7 @@
         transform: translateX(50%);
         bottom: 20vh;
         animation: bounce2 2s ease infinite;
-        height: 7vw;
+        height: 6.5vh;
         width: auto;
     }
 
@@ -278,4 +278,3 @@
         cursor: pointer;
     }
 }
-

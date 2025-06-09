@@ -61,7 +61,7 @@
         color: grey;
         width: 60vw;
     }
-    
+
     .glass-diagram {
         position: absolute;
         right: 17vw;
@@ -69,7 +69,7 @@
         height: auto;
         width: 7vw;
     }
-    
+
     .hpArrow-diagram {
         position: absolute;
         right: 50%;
@@ -234,7 +234,7 @@
         margin-top: 315vh;
         background-color: transparent;
         width: 100vw;
-        height: 7vh;    
+        height: 7vh;
         background-color: rgb(151, 151, 151);
     }
 
@@ -264,18 +264,21 @@
 @media screen and (min-width: 1025px) {
 
     .diagram-container {
-        overflow-x: hidden; /* מסתיר גלילה אופקית */
-        overflow-y: auto;   /* מאפשר גלילה אנכית */
-        scroll-behavior: smooth; /* אם רצית גלילה חלקה */
-      }
+        overflow-x: hidden;
+        /* מסתיר גלילה אופקית */
+        overflow-y: auto;
+        /* מאפשר גלילה אנכית */
+        scroll-behavior: smooth;
+        /* אם רצית גלילה חלקה */
+    }
 
     .mivne-icon-Diagram {
         position: absolute;
-        width: 10vw;
+        width: 7vw;
         height: auto;
         right: 50%;
         transform: translateX(50%);
-        margin-top: 12vh;
+        top: 14vh;
     }
 
     .diagram-title {
@@ -283,8 +286,8 @@
         right: 50%;
         transform: translateX(50%);
         font-family: 'Karantina', cursive;
-        font-size: 8vw;
-        color: rgb(48, 48, 48);
+        font-size: 5vw;
+        color: rgb(86, 195, 232);
         width: 90vw;
         text-align: center;
         margin-top: 26vh;
@@ -292,46 +295,47 @@
 
     #subtitleD1 {
         top: 45vh;
-        left: 48vw;
+        right: 50vw;
     }
 
     .subtitle-diagram {
         position: absolute;
-        text-align: center;
+        text-align: right;
         font-family: 'Heebo', sans-serif;
-        font-size: 2.5vw;
-        color:#185885;
-        width: 40vw;
+        font-size: 2vw;
+        color: #185885;
+        width: 30vw;
         direction: rtl;
     }
 
     #subtitleD2 {
         top: 75vh;
-        left: 48vw; 
-       }
+        right: 50vw;
+    }
 
     .setup {
         position: absolute;
         top: 45vh;
-        left: 7vw;
-        width: 40vw;
+        right: 13vw;
+        width: 30vw;
         z-index: 3;
     }
 
     .MagnifyPic-text-diagram {
-        position: absolute;
-        left: -8vh;
-        top: 87vh;
+       position: absolute;
+        /* right: -5vh; */
+        left: 74vh;
+        top: 78vh;
         font-family: 'Heebo', sans-serif;
         font-size: 1.5vw;
         color: grey;
         width: 60vw;
     }
-    
+
     .glass-diagram {
         position: absolute;
-        right: 59vw;
-        top: 86vh;
+        right: 17vw;
+        top: 77vh;
         height: auto;
         width: 2.5vw;
     }
@@ -358,29 +362,30 @@
     }
 
     .first-frame {
-        width: 30vw;
+        width: 24vw;
         height: 8vh;
         background-color: #053859;
         border: 1.5vw solid #053859;
         z-index: 2;
         position: relative;
         margin-top: -184vh;
-        left: 32vw;
+        left: 36vw;
         cursor: pointer;
     }
 
     .first-frame-text {
-        font-family: 'Karantina', cursive;
-        font-size: 6vw;
+       font-family: 'Karantina', cursive;
+        font-size: 5vw;
         margin: 0;
         color: rgb(255, 255, 255);
         width: 30vw;
-        height: 13vh;
-        margin-top: -2vh;
+        height: 12vh;
+        margin-top: -1vh;
+        margin-left: -3vw;
     }
 
     .second-frame {
-        width: 20vw;
+        width: 18vw;
         height: 5vh;
         background-color: #175a85;
         border: 1.5vw solid #175a85;
@@ -397,14 +402,14 @@
     }
 
     .second-frame-text {
-        font-family: 'Karantina', cursive;
-        font-size: 5vw;
+       font-family: 'Karantina', cursive;
+        font-size: 4vw;
         margin: 0;
         color: rgb(255, 255, 255);
         width: 30vw;
         height: 13vh;
-        margin-top: -2vh;
-        margin-left: -5vw;
+        margin-top: -1vh;
+        margin-left: -6vw;
     }
 
     .blue-frame {
