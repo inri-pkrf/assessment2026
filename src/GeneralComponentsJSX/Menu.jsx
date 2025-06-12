@@ -6,6 +6,7 @@ function Menu({ onClose }) {
     const navigate = useNavigate();
 
     const handleItemClick = (path) => {
+        window.scrollTo(0, 0);
         navigate(path);
         onClose();
     };
@@ -40,7 +41,7 @@ function Menu({ onClose }) {
                 <div className='lineMenu' id='lineMenuLast'></div>
             </ul>
 
-            <div className='mashov-menu'>  
+            <div className='mashov-menu'>
                 <div className='mashovTextMenu'>
                     <br /> יש הערות על הממשק? יש מחמאות? מלאו את השאלון וצרו איתנו קשר
                     <br />

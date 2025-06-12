@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../MainTopicsCss/Tasks.css';
 import tasksData from '../Data/tasksData.jsx';
 
 function Tasks() {
+
     const [selectedTask, setSelectedTask] = useState(null);
 
     const handleTaskClick = (task) => {
@@ -13,38 +14,42 @@ function Tasks() {
         setSelectedTask(null);
     };
 
-const renderTasks = (taskSection) => (
-    <div className="task-section">
-        <h2 className="section-title">{taskSection.title}</h2>
-        <ul className="task-list">
-            {taskSection.tasks.map((item, i) => (
-                <li key={i}>
-                    {typeof item === 'string' ? (
-                        <label className="checkbox-label">
-                            <input type="checkbox" />
-                            {item}
-                        </label>
-                    ) : (
-                        <li>
-                            <span className="sub-title-only">{item.subTitle}</span>
-                            <ul className="subtasks-no-bullet">
-                                {item.subTasks.map((subTask, j) => (
-                                    <li key={j}>
-                                        <label className="checkbox-label">
-                                            <input type="checkbox" />
-                                            {subTask}
-                                        </label>
-                                    </li>
-                                ))}
-                            </ul>
-                        </li>
-                    )}
-                </li>
-            ))}
-        </ul>
-    </div>
-);
+    const renderTasks = (taskSection) => (
+        <div className="task-section">
+            <h2 className="section-title">{taskSection.title}</h2>
+            <ul className="task-list">
+                {taskSection.tasks.map((item, i) => (
+                    <li key={i}>
+                        {typeof item === 'string' ? (
+                            <label className="checkbox-label">
+                                <input type="checkbox" />
+                                {item}
+                            </label>
+                        ) : (
+                            <li>
+                                <span className="sub-title-only">{item.subTitle}</span>
+                                <ul className="subtasks-no-bullet">
+                                    {item.subTasks.map((subTask, j) => (
+                                        <li key={j}>
+                                            <label className="checkbox-label">
+                                                <input type="checkbox" />
+                                                {subTask}
+                                            </label>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </li>
+                        )}
+                    </li>
+                ))}
+            </ul>
+        </div>
+    );
 
+    
+   useEffect(() => {
+    window.scrollTo(0, 0);
+}, [selectedTask]);
 
 
     return (
@@ -59,7 +64,7 @@ const renderTasks = (taskSection) => (
             {!selectedTask ? (
                 <div className="part1-tasks">
                     <div className="subTitle1-tasks">
-                        בחר/י את המכלול עליו תרצ/י ללמוד את סדר הפעולות שלו
+                        כאן ניתן לצפות בסדר פעולות לפי מכלול ושלב חירום
                     </div>
                     <div className="array-tasks">
                         {tasksData.map((task, index) => (

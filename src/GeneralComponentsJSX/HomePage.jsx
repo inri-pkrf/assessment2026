@@ -19,7 +19,7 @@ function HomePage() {
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/mivne.png'} className="photo-list-image-homepage" alt="Diagram" />
                     </div>
                 </div>
-                <div id='line1' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>
+                <div id='line1' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </div>
 
                 <div className="photo-list-item" onClick={() => navigate('/gallery')}>
                     <div className="photo-list-content">
@@ -27,7 +27,7 @@ function HomePage() {
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/diagramIcon.png'} className="photo-list-image-homepage" alt="Gallery" />
                     </div>
                 </div>
-                <div id='line2' className='dot-line'>. . . . . . . . . . . . .   . . . . . . . . . . . . . . . . . . . . . . . .  </div>
+                <div id='line2' className='dot-line'>. . . . . . . . . . . . .   . . . . . . . . . . . . . . . . . . . . . . .  </div>
 
                 <div className="photo-list-item" onClick={() => navigate('/relations')}>
                     <div className="photo-list-content">
@@ -35,7 +35,7 @@ function HomePage() {
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/mimshak.png'} className="photo-list-image-homepage" alt="Relations" />
                     </div>
                 </div>
-                <div id='line3' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>
+                <div id='line3' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>
 
                 <div className="photo-list-item" onClick={() => navigate('/target')}>
                     <div className="photo-list-content">
@@ -43,7 +43,7 @@ function HomePage() {
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/icon-des.png'} id='icon-des' className="photo-list-image-homepage" alt="Target" />
                     </div>
                 </div>
-                <div id='line4' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>
+                <div id='line4' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>
                 <div className="photo-list-item" onClick={() => navigate('/scenario')}>
                     <div className="photo-list-content">
                         <div className="photo-list-title-homepage" id='title-homepage-Scenario'> תרחיש ייחוס מישקי </div>
@@ -51,7 +51,7 @@ function HomePage() {
                     </div>
                 </div>
                 
-                <div id='line5' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>
+                <div id='line5' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </div>
                 <div className="photo-list-item" onClick={() => navigate('/tasks')}>
                     <div className="photo-list-content">
                         <div className="photo-list-title-homepage" id='title-homepage-Scenario'> סדר פעולות למכלולים </div>

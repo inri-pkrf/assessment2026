@@ -78,7 +78,7 @@ const Diagram = () => {
 
       <div className="all-diagram">
         <div className="line"></div>
-        <div className='dotLine' >..............</div>
+        <div className='dotLine' >................</div>
         {DiagramData.map((role, index) => (
           <div
             key={index}

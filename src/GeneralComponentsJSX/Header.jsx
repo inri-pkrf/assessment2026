@@ -24,10 +24,8 @@ function Header() {
         src={process.env.PUBLIC_URL + '/assets/images/collegeLogoText.png'}
         className="App-logo"
         alt="logo"
-        onClick={() => {
-          console.log('Navigate to /home-page');
-          navigate('/home-page');
-        }} />
+        onClick={() => navigate('/home-page')}
+      />
 
       {isMobile ? (
         <img

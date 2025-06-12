@@ -8,55 +8,60 @@ function Navbar() {
 
   const isActive = (path) => location.pathname === path;
 
+  const handleNavigate = (path) => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    navigate(path);
+  };
+
   return (
     <nav className="navbar-container">
       <ul className="navbar-list">
         <li
           className={isActive('/home-page') ? 'active' : ''}
-          onClick={() => navigate('/home-page')}
+          onClick={() => handleNavigate('/home-page')}
         >
           עמוד הבית
         </li>
         <li
           className={isActive('/diagram') ? 'active' : ''}
-          onClick={() => navigate('/diagram')}
+          onClick={() => handleNavigate('/diagram')}
         >
           מבנה הרשות
         </li>
         <li
           className={isActive('/gallery') ? 'active' : ''}
-          onClick={() => navigate('/gallery')}
+          onClick={() => handleNavigate('/gallery')}
         >
           העמ"צ בחירום
         </li>
         <li
           className={isActive('/relations') ? 'active' : ''}
-          onClick={() => navigate('/relations')}
+          onClick={() => handleNavigate('/relations')}
         >
           ממשקי מכלולים
         </li>
         <li
           className={isActive('/target') ? 'active' : ''}
-          onClick={() => navigate('/target')}
+          onClick={() => handleNavigate('/target')}
         >
           יעדים לאומיים
         </li>
         <li
           className={isActive('/scenario') ? 'active' : ''}
-          onClick={() => navigate('/scenario')}
+          onClick={() => handleNavigate('/scenario')}
         >
           תרחיש ייחוס
         </li>
-          <li
+        <li
           className={isActive('/tasks') ? 'active' : ''}
-          onClick={() => navigate('/tasks')}
+          onClick={() => handleNavigate('/tasks')}
         >
           סד"פ למכלולים
         </li>
-        {/* <li>יצירת קשר</li> */}
       </ul>
     </nav>
   );
 }
+
 
 export default Navbar;
