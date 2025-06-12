@@ -51,13 +51,13 @@ function HomePage() {
                     </div>
                 </div>
                 
-                {/* <div id='line5' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>
-                <div className="photo-list-item" >
+                <div id='line5' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>
+                <div className="photo-list-item" onClick={() => navigate('/tasks')}>
                     <div className="photo-list-content">
-                        <div className="photo-list-title-homepage" id='title-homepage-Scenario'> סדר פעולות להדפסה </div>
+                        <div className="photo-list-title-homepage" id='title-homepage-Scenario'> סדר פעולות למכלולים </div>
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-assessment/assesment7.png'} className="photo-list-image-homepage" alt="Ogen" />
                     </div>
-                </div> */}
+                </div>
             </div>
 
 

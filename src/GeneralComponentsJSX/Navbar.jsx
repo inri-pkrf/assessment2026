@@ -47,7 +47,12 @@ function Navbar() {
         >
           תרחיש ייחוס
         </li>
-        {/* <li>סד"פ להדפסה</li> */}
+          <li
+          className={isActive('/tasks') ? 'active' : ''}
+          onClick={() => navigate('/tasks')}
+        >
+          סד"פ למכלולים
+        </li>
         {/* <li>יצירת קשר</li> */}
       </ul>
     </nav>

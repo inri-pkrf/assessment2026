@@ -62,7 +62,7 @@
          position: absolute;
         transform: translateX(50%);
         right: 50%;
-        width: 70vw;
+        width: 80vw;
         height: 12vh;
     }
 
@@ -72,6 +72,7 @@
         position: absolute;
         top: 10px;
         right: 10px;
+        z-index: 2000;
     }
 
     .hamburger {

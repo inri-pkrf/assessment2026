@@ -12,6 +12,8 @@ import Gallery from './MainTopicsJSX/GalleryComponents/Gallery';
 import Relations from './MainTopicsJSX/RelationsComponents/Relations';
 import Scenario from './MainTopicsJSX/Scenario';
 import Target from './MainTopicsJSX/TargetComponents/Target';
+import Tasks from './MainTopicsJSX/Tasks';
+
 
 function App() {
   return (
@@ -31,6 +33,7 @@ function App() {
         <Route path="/relations" element={<Relations />} />
         <Route path="/scenario" element={<Scenario />} />
         <Route path="/target" element={<Target />} />
+        <Route path="/tasks" element={<Tasks />} />
       </Routes>
     </div>
   );
