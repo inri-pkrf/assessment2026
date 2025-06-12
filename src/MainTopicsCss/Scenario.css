@@ -188,10 +188,10 @@
 
   .ogen-subtitle1 {
     font-family: 'Heebo', sans-serif;
-    font-size: 2vw;
+    font-size: 1.7vw;
     color: grey;
     text-align: center;
-    width: 80vw;
+    width: 60vw;
     direction: rtl;
     position: absolute;
     right: 50%;
@@ -226,21 +226,22 @@
     gap: 2vw;
     margin-top: 10vh;
     margin-bottom: 5vh;
+    width: 50vw;
   }
 
   .image-item {
-    width: calc(16% + 3vw); 
-    padding: 1vw;
+    width: 7vw; /* קטן יותר מ־16% + 3vw */
+  padding: 0.5vw;
   }
 
   .ogen-image {
-    width: 60%;
-    height: auto;
+  width: 100%; /* שיתפוס את כל רוחב התיבה */
+      height: auto;
     margin-bottom: 1vh;
   }
 
   .image-title {
-    font-size: 2vw;
+  font-size: 1vw;
     margin: 0.5vh 0;
     font-family: 'Heebo', sans-serif;
     font-size: 1.5vw;
@@ -248,7 +249,7 @@
   }
 
   .image-text {
-    font-size: 1.5vw;
+  font-size: 1.1vw;
     color: grey;
     text-align: center;
     margin: 0;
@@ -262,7 +263,7 @@
   }
 
   .ogen-video {
-    width: 60%;
+    width: 40%;
     height: auto;
     max-width: 60vw;
   }

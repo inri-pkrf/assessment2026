@@ -50,7 +50,7 @@
 @media screen and (min-width: 1025px) {
   .card-details {
     width: 100%;
-    max-width: 75vw;
+    max-width: 41vw;
     margin: 0 auto;
     padding: 2vh;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
@@ -74,7 +74,7 @@
   
   .card-details-headline {
     color: #595959;
-    font-size: 5vh;
+    font-size: 4vh;
     margin: 2vh 0 4vh;
     text-align: center;
   }
@@ -92,10 +92,9 @@
     font-size: 2vh;
     margin-bottom: 2vh;
     margin-top: 5vh;
-    width: 55vw;
+    width: 35vw;
     position: relative;
-    right: 50%;
-    transform: translateX(48%);
+    right: 4vw;
     text-align: right;
   }
 }

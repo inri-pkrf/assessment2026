@@ -59,10 +59,10 @@
     }
 
     .div-navbar{
-        position: absolute;
-        top: 0vh;
-        right: 17vw;
-        width: 80vw;
+         position: absolute;
+        transform: translateX(50%);
+        right: 50%;
+        width: 70vw;
         height: 12vh;
     }
 

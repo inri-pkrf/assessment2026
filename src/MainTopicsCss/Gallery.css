@@ -212,11 +212,11 @@
 
   .gallery-subtitle {
     font-family: 'Heebo', sans-serif;
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: grey;
     text-align: center;
     margin-bottom: 2vw;
-    width: 85%;
+    width: 55%;
     position: absolute;
     right: 50%;
     transform: translateX(50%);
@@ -238,7 +238,7 @@
     position: absolute;
     right: 50%;
     transform: translateX(50%);
-    width: 71vw;
+    width: 44vw;
     top: 45vh;
   }
 
@@ -254,9 +254,8 @@
     position: absolute;
     right: 50%;
     transform: translateX(50%);
-    width: 29vw;
     display: block;
-    width: 8vw;
+    width: 5vw;
     margin-bottom: -9vh;
     margin-top: 125vh;
   }
@@ -278,21 +277,21 @@
   }
 
   .arrowDiv {
-    background-color: #1cb4e3;
-    color: white;
-    position: relative;
-    left: 14vw;
-    width: 25vw;
-    height: 6vh;
-    top: 2vh;
-    padding: 1vh;
-    text-align: center;
-    font-size: 4vmin;
-    font-weight: bold;
-    border-radius: 15vw;
-    font-family: 'Assistant', sans-serif;
-    cursor: pointer;
-    transition: all 0.3s ease;
+   background-color: #1cb4e3;
+        color: white;
+        position: relative;
+        left: 14vw;
+        width: 16vw;
+        height: 4vh;
+        top: 2vh;
+        padding: 1vh;
+        text-align: center;
+        font-size: 3vmin;
+        font-weight: bold;
+        border-radius: 15vw;
+        font-family: 'Assistant', sans-serif;
+        cursor: pointer;
+        transition: all 0.3s ease;
   }
 
   .arrowDivRight:hover {
@@ -303,8 +302,8 @@
 
   .arrowDivLeft {
     background-color: #b7b7b7;
-    left: -14vw;
-    top: -6vh;
+    left: -12vw;
+    top: -4vh;
   }
 
   .arrowDivLeft:hover {
@@ -319,7 +318,7 @@
     left: 1vw;
     top: 3vh;
     text-decoration: underline;
-    font-size: 5vmin;
+    font-size: 4vmin;
     margin-top: 3vh;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -332,7 +331,7 @@
 
   .btn-print-gallery {
     position: absolute;
-    margin-top: 400vh;
+    margin-top: 410vh;
     background-color: transparent;
     width: 100%;
     height: 10vh;

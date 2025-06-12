@@ -145,15 +145,15 @@ const DiagramData = [
         classNameTitle: 'colored-box-text'
     },
     {
-        titlePopUp: 'יק"לר',
+        titlePopUp: 'יקל"ר',
         titleDisplayMobile: (
             <>
-                יק"לר
+                יקל"ר
             </>
         ),
         titleDisplayDesktop: (
             <>
-                יק"לר
+                יקל"ר
             </>
         ),
         content: (

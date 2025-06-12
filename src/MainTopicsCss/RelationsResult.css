@@ -140,7 +140,7 @@
 @media screen and (min-width: 1025px) {
     .sub-Interfaces {
         font-family: 'Heebo', sans-serif;
-        font-size: 5vmin;
+        font-size: 4vmin;
         color: grey;
         text-align: center;
         margin-top: 12vh;
@@ -165,13 +165,13 @@
         position: absolute;
         right: 50%;
         transform: translateX(50%);
-        width: 60vw;
+               width: 44vw;
         height: 8vh;
         color: white;
         font-weight: bold;
         text-align: center;
         padding-top: 2vh;
-        font-size: 4.5vmin;
+        font-size: 3.5vmin;
         margin-top: 5vh;
     }
 
@@ -184,7 +184,7 @@
     }
 
     .text-Interfaces {
-        width: 54vw;
+               width: 38vw;
         height: 20vh;
         background-color: #e9e9e9;
         color: #000000;
@@ -193,7 +193,7 @@
         margin-top: 9vh;
         padding-left: 6vh;
         padding-top: 10vh;
-        font-size: 3vmin;
+        font-size: 2vmin;
     }
 
     .btn-div-Interfaces {

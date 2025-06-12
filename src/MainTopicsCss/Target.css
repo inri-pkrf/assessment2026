@@ -251,11 +251,11 @@ font-family: 'Karantina', cursive;
 
   .sub-intro-tar {
     font-family: 'Heebo', sans-serif;
-    font-size: 3vw;
+        font-size: 2vw;
     color: grey;
     text-align: center;
     margin-top: 49vh;
-    width: 78vw;
+    width: 45vw;
     position: absolute;
     right: 50%;
     transform: translateX(50%);
@@ -266,7 +266,7 @@ font-family: 'Karantina', cursive;
     position: absolute;
     right: 50%;
     transform: translateX(50%);
-    width: 9vw;
+    width: 5vw;
     bottom: 15vh;
     animation: bounce2 2s ease infinite;
     cursor: pointer;
@@ -297,7 +297,7 @@ font-family: 'Karantina', cursive;
 
   .title-Target {
     font-family: 'Karantina', cursive;
-    font-size: 8vw;
+    font-size: 5vw;
     margin-bottom: 3vw;
     margin-top: 33vh;
     width: 87%;
@@ -320,14 +320,14 @@ font-family: 'Karantina', cursive;
   }
 
   .array-item-step1 {
-    height: 8vh;
-    width: 37vw;
-    background-color: #d9d9d9;
-    margin-top: 2vh;
-    padding-top: 1.5vh;
-    font-size: 4vmin;
-    cursor: pointer;
-    margin-bottom: 3vh;
+          height: 6vh;
+        width: 29vw;
+        background-color: #d9d9d9;
+        margin-top: 2vh;
+        padding-top: 1.5vh;
+        font-size: 3vmin;
+        cursor: pointer;
+        margin-bottom: 3vh;
   }
 
   .array-item:active {
@@ -337,7 +337,7 @@ font-family: 'Karantina', cursive;
 
   #text-Target1 {
     font-family: 'Heebo', sans-serif;
-    font-size: 4vmin;
+    font-size: 3vmin;
     color: grey;
     text-align: center;
     margin-top: 10vh;
@@ -369,14 +369,15 @@ font-family: 'Karantina', cursive;
     text-align: center;
     color: white;
     margin-top: 19vh;
+    
   }
 
   .array-item-step2 {
-    height: 8vh;
-    width: 37vw;
+          height: 6vh;
+        width: 29vw;
     margin-top: 2vh;
     padding-top: 1.5vh;
-    font-size: 4vmin;
+        font-size: 3vmin;
     cursor: pointer;
     margin-bottom: 3vh;
   }
@@ -400,7 +401,7 @@ font-family: 'Karantina', cursive;
     transform: translateX(50%);
     height: 4vh;
     width: 74vw;
-    top: 40vh;
+    top: 33vh;
     background-color: transparent;
     color: black;
   }

@@ -146,7 +146,7 @@
     .title-InterfacesTarget {
         font-family: 'Karantina';
         color: #595959;
-        font-size: 7vw;
+        font-size: 5vw;
         margin-top: -18vh;
         width: 75vw;
         text-align: center;
@@ -161,19 +161,19 @@
         position: absolute;
         right: 50%;
         transform: translateX(50%);
-        width: 55vw;
-        height: 8vh;
+        width: 46vw;
+        height: 7vh;
         color: white;
         font-weight: bold;
         text-align: center;
-        padding-top: 1vh;
-        font-size: 5vmin;
-        margin-top: 3vh;
+        padding-top: 2vh;
+        font-size: 3vmin;
+        margin-top: vh;
         font-family: 'Heebo', sans-serif;
     }
 
     .text-interfaces-target {
-        width: 49.4vw;
+        width: 40.4vw;
         height: 30vh;
         background-color: #e9e9e9;
         color: #000000;
@@ -182,9 +182,10 @@
         margin-top: 9vh;
         padding-left: 5vh;
         padding-top: 5vh;
-        font-size: 2.5vmin;
+        font-size: 2vmin;
         font-family: 'Heebo', sans-serif;
         line-height: 4vh;
+        text-align: right;
     }
 
     .btn-div-target {
@@ -196,16 +197,16 @@
     }
 
     .btn-Interfaces {
-        font-family: 'Heebo', sans-serif;
+       font-family: 'Heebo', sans-serif;
         margin-right: 2vh;
         margin-bottom: 4vh;
         color: white;
         position: relative;
         width: 20vw;
-        height: 6vh;
+        height: 4vh;
         padding: 1vh;
         text-align: center;
-        font-size: 4vmin;
+        font-size: 3vmin;
         font-weight: bold;
         border-radius: 15vw;
         cursor: pointer;
@@ -230,7 +231,7 @@
 
     #stpe1btn {
         color: #56c3e8;
-        font-size: 4vmin;
+        font-size: 3vmin;
         text-align: center;
         text-decoration: underline;
         font-family: 'Heebo', sans-serif;

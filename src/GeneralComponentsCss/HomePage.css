@@ -83,16 +83,12 @@
 }
 
 /* Tablet */
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-}
+@media screen and (min-width: 769px) and (max-width: 1024px) {}
 
 /* Desktop */
 @media screen and (min-width: 1025px) {
 
-    .home-page{
-background-color:violet ;
-    }
-
+  
     .title {
         position: absolute;
         right: 50%;
@@ -105,7 +101,7 @@ background-color:violet ;
         text-align: center;
     }
 
-    .div-list {
+    /* .div-list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 4vh 2vw;
@@ -127,17 +123,39 @@ background-color:violet ;
         margin-bottom: 10vh;
         transition: transform 0.3s ease;
         cursor: pointer;
+    } */
+
+    .div-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        gap: 4vw;
+        margin-top: 42vh;
+        direction: rtl;
     }
-    
+
+    .photo-list-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+        margin-bottom: 0;
+        /* ביטול הרווח האנכי */
+    }
+
     .photo-list-item:hover {
         transform: translateY(-10px) scale(1.05);
     }
-    
+
     .photo-list-content:hover .photo-list-image-homepage {
         filter: brightness(1.1) contrast(1.1);
         transition: filter 0.3s ease;
     }
-    
+
     .photo-list-content:hover .photo-list-title-homepage {
         color: #0b5394;
         text-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -151,11 +169,11 @@ background-color:violet ;
         justify-content: center;
         text-align: center;
     }
-    
+
     .photo-list-image-homepage {
         width: 6.5vw;
     }
-    
+
     .photo-list-title-homepage {
         font-size: 3vh;
         font-weight: bold;
@@ -168,20 +186,46 @@ background-color:violet ;
         top: 20vh;
     }
 
-    #title-homepage-target{
+    #title-homepage-target {
         width: 10vw;
     }
 
-    
-    #title-homepage-Scenario{
+
+    #title-homepage-Scenario {
         width: 10vw;
     }
-    
+
     .dot-line {
         display: none;
     }
 
-    .mashov-home {
+    #icon-des{
+width: 5vw;
+    }
+
+    /* .mashov-home {
         display: none;
+    } */
+
+      .mashov-home {
+        font-family: 'Heebo', sans-serif;
+        font-size: 1vw;
+        color: #50565c;
+        text-align: center;
+        position: absolute;
+        top: 90vh;
+        width: 100%;
+        height: 10vh;
+        background-color: #d1d1d1;
+        right: 50%;
+        transform: translateX(50%);
+    }
+
+    .mashovText {
+        margin-bottom: 4vh;
+    }
+
+    #linkHome {
+        color: #50565c;
     }
 }

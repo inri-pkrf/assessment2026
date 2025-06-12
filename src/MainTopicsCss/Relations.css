@@ -216,37 +216,37 @@
     position: absolute;
     right: 50%;
     transform: translateX(50%);
-    width: 9vw;
-    bottom: 15vh;
+    width: 5vw;
+    bottom: 25vh;
     animation: bounce2 2s ease infinite;
     cursor: pointer;
   }
 
   .photo-mimshak-intro {
-   position: absolute;
-        width: 7vw;
-        height: auto;
-        right: 50%;
-        transform: translateX(50%);
-        top: 14vh;
+    position: absolute;
+    width: 7vw;
+    height: auto;
+    right: 50%;
+    transform: translateX(50%);
+    top: 14vh;
   }
 
   @keyframes bounce2 {
     0% {
-      bottom: 10vh;
+      bottom: 20vh;
     }
 
     50% {
-      bottom: 8vh;
+      bottom: 15vh;
     }
 
     100% {
-      bottom: 10vh;
+      bottom: 20vh;
     }
   }
 
   .title-intro-rel {
-  font-family: 'Karantina', cursive;
+    font-family: 'Karantina', cursive;
     font-size: 5vw;
     color: rgb(86, 195, 232);
     font-weight: bold;
@@ -260,11 +260,11 @@
 
   .sub-intro-rel {
     font-family: 'Heebo', sans-serif;
-    font-size: 3vw;
+    font-size: 1.5vw;
     color: grey;
     text-align: center;
     margin-top: 49vh;
-    width: 78vw;
+    width: 45vw;
     position: absolute;
     right: 50%;
     transform: translateX(50%);
@@ -274,7 +274,7 @@
 
   .title-page1 {
     font-family: 'Karantina', cursive;
-    font-size: 8vw;
+    font-size: 6vw;
     margin-bottom: 3vw;
     margin-top: 33vh;
     width: 87%;
@@ -325,7 +325,7 @@
   }
 
   .photo-mimshak {
-   display: none;
+    display: none;
   }
 
   .content-page1 {
@@ -361,12 +361,12 @@
   }
 
   .array-item {
-    height: 8vh;
-    width: 37vw;
+    height: 6vh;
+    width: 29vw;
     background-color: #d9d9d9;
     margin-top: 2vh;
     padding-top: 1.5vh;
-    font-size: 4vmin;
+    font-size: 3vmin;
     cursor: pointer;
     margin-bottom: 3vh;
   }
@@ -378,7 +378,7 @@
 
   .sub-text-relations {
     font-family: 'Heebo', sans-serif;
-    font-size: 5vmin;
+    font-size: 3vmin;
     color: grey;
     text-align: center;
     margin-top: 29vh;

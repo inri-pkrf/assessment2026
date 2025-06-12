@@ -323,8 +323,7 @@
 
     .MagnifyPic-text-diagram {
        position: absolute;
-        /* right: -5vh; */
-        left: 74vh;
+        right: 0vw;
         top: 78vh;
         font-family: 'Heebo', sans-serif;
         font-size: 1.5vw;

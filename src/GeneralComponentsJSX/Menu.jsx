@@ -36,8 +36,8 @@ function Menu({ onClose }) {
                 <li onClick={() => handleItemClick('/scenario')}>תרחיש ייחוס מישקי</li>
                 <div className='lineMenu' ></div>
 
-                <li id='last-item-m'> סד"פ להדפסה</li>
-                <div className='lineMenu' id='lineMenuLast'></div>
+                {/* <li id='last-item-m'> סד"פ להדפסה</li> */}
+                {/* <div className='lineMenu' id='lineMenuLast'></div> */}
             </ul>
 
             <div className='mashov-menu'>  
