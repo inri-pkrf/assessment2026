@@ -310,8 +310,6 @@ const DiagramData = [
                 - תא חינוך פורמלי
                 <br />
                 - תא חינוך בלתי פורמלי
-                <br />
-                - תא חינוך מוכר שאינו רשמי
             </>
         ),
         classNameDiv: 'colored-box-sub',
