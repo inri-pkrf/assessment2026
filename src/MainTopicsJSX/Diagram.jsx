@@ -20,7 +20,8 @@ const Diagram = () => {
     setSelectedRole(role);
     setIsPopUpVisible(true);
   };
-
+ 
+  
   const closePopUp = () => {
     setSelectedRole(null);
     setIsPopUpVisible(false);
