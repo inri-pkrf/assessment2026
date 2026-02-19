@@ -23,10 +23,10 @@ function Navbar() {
           עמוד הבית
         </li>
         <li
-          className={isActive('/diagram') ? 'active' : ''}
-          onClick={() => handleNavigate('/diagram')}
+          className={isActive('/tasks') ? 'active' : ''}
+          onClick={() => handleNavigate('/tasks')}
         >
-          מבנה הרשות
+          סד"פ למכלולים
         </li>
         <li
           className={isActive('/gallery') ? 'active' : ''}
@@ -53,10 +53,10 @@ function Navbar() {
           תרחיש ייחוס
         </li>
         <li
-          className={isActive('/tasks') ? 'active' : ''}
-          onClick={() => handleNavigate('/tasks')}
+          className={isActive('/diagram') ? 'active' : ''}
+          onClick={() => handleNavigate('/diagram')}
         >
-          סד"פ למכלולים
+          מבנה הרשות
         </li>
       </ul>
     </nav>

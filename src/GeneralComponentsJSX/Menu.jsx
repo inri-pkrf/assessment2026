@@ -22,8 +22,8 @@ function Menu({ onClose }) {
                 <li onClick={() => handleItemClick('/home-page')}>עמוד הבית</li>
                 <div className='lineMenu'></div>
 
-                <li onClick={() => handleItemClick('/diagram')}>מבנה הרשות המקומית בחירום</li>
-                <div className='lineMenu'></div>
+                <li onClick={() => handleItemClick('/tasks')}> סד"פ למכלולים</li>
+                <div className='lineMenu' id='lineMenu'></div>
 
                 <li onClick={() => handleItemClick('/gallery')}>הערכת מצב ברשות המקומית בחירום</li>
                 <div className='lineMenu'></div>
@@ -37,8 +37,9 @@ function Menu({ onClose }) {
                 <li onClick={() => handleItemClick('/scenario')}>תרחיש ייחוס מישקי</li>
                 <div className='lineMenu' ></div>
 
-                <li id='last-item-m' onClick={() => handleItemClick('/tasks')}> סד"פ למכלולים</li>
-                <div className='lineMenu' id='lineMenuLast'></div>
+                <li  onClick={() => handleItemClick('/diagram')}>מבנה הרשות המקומית בחירום</li>
+                <div className='lineMenu'></div>
+
             </ul>
 
             <div className='mashov-menu'>

@@ -12,50 +12,50 @@ function HomePage() {
                 עזר דיגיטלי לניהול מצבי חירום ברשות המקומית
             </div>
 
-            <div className='div-list'>
-                <div className="photo-list-item" onClick={() => navigate('/diagram')} >
+            <div className='div-list'>  
+                <div className="photo-list-item" onClick={() => navigate('/tasks')}>
                     <div className="photo-list-content">
-                        <div className="photo-list-title-homepage">מבנה הרשות המקומית בחירום</div>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/mivne.png'} className="photo-list-image-homepage" alt="Diagram" />
+                        <img src={process.env.PUBLIC_URL + '/assets/images/logos-assessment/assesment7.png'} className="photo-list-image-homepage" alt="Ogen" />
+                        <div className="photo-list-title-homepage" id='title-homepage-Scenario'> סדר פעולות למכלולים </div>
                     </div>
                 </div>
                 <div id='line1' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </div>
 
                 <div className="photo-list-item" onClick={() => navigate('/gallery')}>
                     <div className="photo-list-content">
-                        <div className="photo-list-title-homepage"> הערכת מצב ברשות המקומית בחירום </div>
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/diagramIcon.png'} className="photo-list-image-homepage" alt="Gallery" />
+                        <div className="photo-list-title-homepage"> הערכת מצב ברשות המקומית בחירום </div>
                     </div>
                 </div>
                 <div id='line2' className='dot-line'>. . . . . . . . . . . . .   . . . . . . . . . . . . . . . . . . . . . . .  </div>
 
                 <div className="photo-list-item" onClick={() => navigate('/relations')}>
                     <div className="photo-list-content">
-                        <div className="photo-list-title-homepage">ממשקי עבודה בין מכלולים</div>
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/mimshak.png'} className="photo-list-image-homepage" alt="Relations" />
+                        <div className="photo-list-title-homepage">ממשקי עבודה בין מכלולים</div>
                     </div>
                 </div>
                 <div id='line3' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>
 
                 <div className="photo-list-item" onClick={() => navigate('/target')}>
                     <div className="photo-list-content">
-                        <div className="photo-list-title-homepage" id='title-homepage-target'>  יעדים לאומיים </div>
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/icon-des.png'} id='icon-des' className="photo-list-image-homepage" alt="Target" />
+                        <div className="photo-list-title-homepage" id='title-homepage-target'>  יעדים לאומיים </div>
                     </div>
                 </div>
                 <div id='line4' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>
                 <div className="photo-list-item" onClick={() => navigate('/scenario')}>
                     <div className="photo-list-content">
-                        <div className="photo-list-title-homepage" id='title-homepage-Scenario'> תרחיש ייחוס מישקי </div>
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/ogenIcon.png'} className="photo-list-image-homepage" alt="Scenario" />
+                        <div className="photo-list-title-homepage" id='title-homepage-Scenario'> תרחיש ייחוס מישקי </div>
                     </div>
                 </div>
                 
                 <div id='line5' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . </div>
-                <div className="photo-list-item" onClick={() => navigate('/tasks')}>
+                <div className="photo-list-item" onClick={() => navigate('/diagram')} >
                     <div className="photo-list-content">
-                        <div className="photo-list-title-homepage" id='title-homepage-Scenario'> סדר פעולות למכלולים </div>
-                        <img src={process.env.PUBLIC_URL + '/assets/images/logos-assessment/assesment7.png'} className="photo-list-image-homepage" alt="Ogen" />
+                        <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/mivne.png'} className="photo-list-image-homepage" alt="Diagram" />
+                        <div className="photo-list-title-homepage">מבנה הרשות המקומית בחירום</div>
                     </div>
                 </div>
             </div>

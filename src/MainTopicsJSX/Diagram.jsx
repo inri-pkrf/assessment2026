@@ -21,7 +21,7 @@ const Diagram = () => {
     setIsPopUpVisible(true);
   };
  
-  
+
   const closePopUp = () => {
     setSelectedRole(null);
     setIsPopUpVisible(false);
@@ -68,7 +68,7 @@ const Diagram = () => {
         />
 
       <div className="subtitle-diagram" id='subtitleD2'>
-        בלחיצה על כל רכיב יפתח חלון עם הסבר נוסף -
+         בלחיצה על כל רכיב יפתח חלון עם פירוט תפקידי המכלול -
       </div>
 
       <img
