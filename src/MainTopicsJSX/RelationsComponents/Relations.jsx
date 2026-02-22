@@ -5,13 +5,13 @@ import RelationsResult from './RelationsResult';
 function Relations() {
 
   const initialArray = [
-    'שליטה ודיווח',
-    'מידע לציבור',
-    'לוגיסטיקה',
-    'אוכלוסייה',
-    'הנדסה ותשתיות',
+    'מבצעים',
+    'אוכלוסיה',
     'חינוך',
-    'מנהל כללי ומשא"ן',
+    'מידע לציבור',
+    'הנדסה ותשתיות',
+    'לוגיסטיקה ותפעול',
+    'מינהל כללי ומשא"ן',
     'יקל"ר'
   ];
 
@@ -68,7 +68,7 @@ function Relations() {
         setStep2Color('rgb(86 195 232)'); 
         setStep3Color('rgb(217 217 217)');
         setNewComponent(false); 
-        setText('יש לבחור מכלול נוסף, בכדי לצפות בממשקים שלו כחלק מהעבודה השוטפת');
+        setText('יש לבחור מכלול נוסף, בכדי לצפות בממשקים כחלק מהעבודה השוטפת');
         if (selectedItemStep1) {
           setTitle(`מכלול ${selectedItemStep1}`);
         } else {

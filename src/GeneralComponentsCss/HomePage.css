@@ -1,15 +1,19 @@
 /* Mobile */
 @media screen and (max-width: 768px) {
-    .title {
+    .title-phone {
         position: absolute;
         right: 50%;
         transform: translateX(50%);
         font-family: 'Karantina';
-        font-size: 16vw;
+        font-size: 14vw;
         color: #50565c;
-        width: 100%;
+        width: 90%;
         top: 20vh;
         text-align: center;
+    }
+
+    .title {
+        display: none;
     }
 
     .div-list {
@@ -100,6 +104,10 @@
         width: 100%;
         top: 21vh;
         text-align: center;
+    }
+    
+    .title-phone {
+        display: none;
     }
 
     .div-list {

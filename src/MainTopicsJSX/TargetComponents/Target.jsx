@@ -17,13 +17,13 @@ function Target() {
     const [selectedItemColor, setSelectedItemColor] = useState('#ffffff');
 
     const initialArray = [
-        'מרכז שליטה רשותי',
-        'אוכלוסייה',
+        'מבצעים',
+        'אוכלוסיה',
         'חינוך',
         'מידע לציבור',
         'הנדסה ותשתיות',
         'לוגיסטיקה ותפעול',
-        'משאבי אנוש ומנהל כללי',
+        'מינהל כללי ומשא"ן',
     ];
 
     const secondArray = [
@@ -137,7 +137,7 @@ function Target() {
                     <div className="title-intro-tar">  יעדים ומאפשרים לאומיים
                     </div>
                     <div className="sub-intro-tar">
-                        לפניך מערכת הצלבה בין המכלולים ותוכנית 'עוגן איתן' לרשות המקומית. כאן ניתן ללמוד על תפקיד המכלול במסגרת המאפשרים והיעדים הלאומיים.
+                        לפניך מערכת הצלבה בין המכלולים ותוכנית 'עוגן איתן' לרשות המקומית. <br/> כאן ניתן ללמוד על תפקיד המכלול במסגרת המאפשרים והיעדים הלאומיים.
                     </div>
                     <img
                         src={process.env.PUBLIC_URL + '/assets/images/hpArrow.png'}

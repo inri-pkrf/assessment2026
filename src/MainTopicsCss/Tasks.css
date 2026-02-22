@@ -108,8 +108,7 @@
         font-weight: bold;
         color: rgb(35 88 132);
         font-size: 1rem;
-        text-decoration: underline;
-        margin-bottom: 2vh;
+        margin-bottom: 3vh;
     }
 
 
@@ -145,7 +144,6 @@
     .checkbox-label {
         display: flex;
         align-items: flex-start;
-        /* justify-content: flex-start; */
         gap: 10px;
         cursor: pointer;
         font-size: 1rem;
@@ -297,7 +295,7 @@
         font-weight: bold;
         color: rgb(35 88 132);
         font-size: 1rem;
-        text-decoration: underline;
+        margin-bottom: 2vh;
     }
 
     .selected-task-prefix {
@@ -348,10 +346,15 @@
 
     .checkbox-label {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         gap: 10px;
         cursor: pointer;
         font-size: 1rem;
+        margin-bottom: 2vh;
+    }
+
+    .task-text {
+        margin-top: -1vh;
     }
 
     /* קונטיינר של הכפתורים */

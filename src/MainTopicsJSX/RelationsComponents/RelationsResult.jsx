@@ -2,20 +2,50 @@ import React, { useEffect } from 'react';
 import '../../MainTopicsCss/RelationsResult.css';
 import RelationsData from '../../Data/RelationsData.jsx';
 
-function RelationsResult({ selectedItemStep1, selectedItemsStep2, setSelectedItemsStep2, setTitle, navigateToStep1, }) {
+function RelationsResult({
+    selectedItemStep1,
+    selectedItemsStep2,
+    setSelectedItemsStep2,
+    setTitle,
+    navigateToStep1,
+}) {
     const selectedData = RelationsData[selectedItemStep1] || [];
-    const currentIndex = selectedData.findIndex((item) => item.name === selectedItemsStep2);
+    const currentIndex = selectedData.findIndex(
+        (item) => item.name === selectedItemsStep2
+    );
     const itemData = selectedData[currentIndex];
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
 
+    // 🔹 הופך כל משפט לפריט רשימה (li) עם יישור מושלם
+    const renderBulletsPerSentence = (text) => {
+        if (!text) return null;
+
+        const sentences = text
+            .split('.')
+            .map((sentence) => sentence.trim())
+            .filter((sentence) => sentence.length > 0);
+
+        return (
+            <ul style={{ margin: 0, paddingRight: '20px', direction: 'rtl' }}>
+                {sentences.map((sentence, index) => (
+                    <li key={index}>{sentence}.</li>
+                ))}
+            </ul>
+        );
+    };
+
     const updateTitle = (nextItem) => {
         if (selectedItemStep1 === 'יקל"ר') {
             setTitle(
                 <span>
-                    ממשק בין <span style={{ color: '#f90' }}>{selectedItemStep1}</span> ו{nextItem}
+                    ממשק בין{' '}
+                    <span style={{ color: '#f90' }}>
+                        {selectedItemStep1}
+                    </span>{' '}
+                    ו{nextItem}
                 </span>
             );
         } else {
@@ -45,7 +75,10 @@ function RelationsResult({ selectedItemStep1, selectedItemsStep2, setSelectedIte
     };
 
     const handlePrintRelationsClick = () => {
-        window.open(`${process.env.PUBLIC_URL}/assets/pdf/ממשקים בין מכלולים.pdf`, '_blank');
+        window.open(
+            `${process.env.PUBLIC_URL}/assets/pdf/ממשקים בין מכלולים.pdf`,
+            '_blank'
+        );
     };
 
     return (
@@ -56,21 +89,36 @@ function RelationsResult({ selectedItemStep1, selectedItemsStep2, setSelectedIte
                 <div className="title-Interfaces" id="title1-Interfaces">
                     מקבל מהמכלול
                 </div>
-                <div className="text-Interfaces" id="text1-Interfaces">
-                    {itemData ? itemData.connections[1] : ''}
+
+                <div
+                    className="text-Interfaces"
+                    id="text1-Interfaces"
+                    style={{ direction: 'rtl', textAlign: 'right' }}
+                >
+                    {itemData
+                        ? renderBulletsPerSentence(itemData.connections[1])
+                        : null}
                 </div>
 
                 <div
                     className="title-Interfaces"
                     id="title2-Interfaces"
                     style={{
-                        backgroundColor: selectedItemStep1 === 'יקל"ר' ? '#f90' : '#1cb4e3',
+                        backgroundColor:
+                            selectedItemStep1 === 'יקל"ר' ? '#f90' : '#1cb4e3',
                     }}
                 >
                     נותן למכלול
                 </div>
-                <div className="text-Interfaces" id="text2-Interfaces">
-                    {itemData ? itemData.connections[0] : ''}
+
+                <div
+                    className="text-Interfaces"
+                    id="text2-Interfaces"
+                    style={{ direction: 'rtl', textAlign: 'right' }}
+                >
+                    {itemData
+                        ? renderBulletsPerSentence(itemData.connections[0])
+                        : null}
                 </div>
             </div>
 

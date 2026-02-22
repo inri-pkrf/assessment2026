@@ -47,14 +47,14 @@
 
     .text-Interfaces {
         width: 93vw;
-        height: 20vh;
+        height: 24vh;
         background-color: #e9e9e9;
         color: #000000;
-        margin-bottom: 1vh;
         padding-right: 2vh;
         margin-top: 9vh;
         padding-left: 2vh;
         padding-top: 6vh;
+        text-align: right;
     }
 
     .btn-div-Interfaces {
@@ -62,7 +62,7 @@
         right: 50%;
         transform: translateX(50%);
         display: flex;
-        margin-top: 86vh;
+        margin-top: 95vh;
     }
 
     .btn-Interfaces {
@@ -92,7 +92,7 @@
         position: absolute;
         right: 50%;
         transform: translateX(50%);
-        margin-top: 97vh;
+        margin-top: 102vh;
         width: 100%;
     }
 

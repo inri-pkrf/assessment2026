@@ -40,7 +40,13 @@
   font-size: 2vh;
   margin-bottom: 2vh;
   width: 75vw;
+  text-align: right;
 }
+
+.gallery-sub-title {
+  font-size: 4.5vmin;
+}
+
 }
 
 /* Tablet */

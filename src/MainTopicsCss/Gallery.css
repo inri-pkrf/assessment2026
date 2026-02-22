@@ -19,7 +19,7 @@
     width: 19vw;
   }
 
-  .Gallery-title {
+  .Gallery-title-phone {
     position: relative;
     top: 5vh;
     left: 1vw;
@@ -28,6 +28,10 @@
     font-size: 14vw;
     color: #595959;
     margin-bottom: 5vh;
+  }
+
+  .Gallery-title {
+    display: none;
   }
 
   .gallery-subtitle {
@@ -208,6 +212,10 @@
     width: 90vw;
     text-align: center;
     margin-top: 15vh;
+  }
+
+  .Gallery-title-phone {
+    display: none;
   }
 
   .gallery-subtitle {

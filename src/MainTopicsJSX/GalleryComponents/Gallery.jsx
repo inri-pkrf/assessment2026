@@ -63,6 +63,7 @@ const Gallery = () => {
             <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/diagramIcon.png'} className="GalleryIcon" alt="Gallery" />
 
             <h1 className="Gallery-title">הערכת מצב ברשות המקומית</h1>
+            <h1 className="Gallery-title-phone">הערכת מצב < br /> ברשות המקומית</h1>
 
             {selectedCardIndex === null ? (
                 <div className='text-gallery'>
@@ -70,7 +71,7 @@ const Gallery = () => {
                         לפניך סדר הדוברים לביצוע הערכת מצב בשעת חירום
                     </p>
                     <img src={process.env.PUBLIC_URL + '/assets/images/table.jpg'} className="table-gallery" alt="table" onClick={handleImageClickGallery} />
-                    <div className='MagnifyPic-text-table'>אפשר להגדיל את הסדר דוברים בלחיצה</div>
+                    <div className='MagnifyPic-text-table'>אפשר להגדיל את סדר הדוברים בלחיצה</div>
                     <img
                         src={`${process.env.PUBLIC_URL}/assets/images/glass.png`}
                         className="glass-table"

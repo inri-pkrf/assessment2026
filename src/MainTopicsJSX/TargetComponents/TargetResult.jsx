@@ -71,7 +71,8 @@ function TargetResult({ selectedItemStep1, selectedItemsStep2, navigateToStep1 }
         <div className="interfaces-target">
             <div className='Interfaces-contect-target'>
                 <div className='title-InterfacesTarget'>
-                    {`ממשק בין ${selectedItemStep1} ו`}
+                    {`מכלול  ${selectedItemStep1} -`}
+                    <br />
                     <span style={{ color: currentColor }}>
                         {TargetData[selectedItemStep1][currentIndex]?.name || selectedItemsStep2}
                     </span>

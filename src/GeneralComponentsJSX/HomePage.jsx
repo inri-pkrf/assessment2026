@@ -8,6 +8,9 @@ function HomePage() {
     return (
         <div className="home-page">
 
+            <div className="title-phone">
+                עזר דיגיטלי לניהול < br /> מצבי חירום ברשות המקומית
+            </div>
             <div className="title">
                 עזר דיגיטלי לניהול מצבי חירום ברשות המקומית
             </div>
@@ -24,7 +27,7 @@ function HomePage() {
                 <div className="photo-list-item" onClick={() => navigate('/gallery')}>
                     <div className="photo-list-content">
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/diagramIcon.png'} className="photo-list-image-homepage" alt="Gallery" />
-                        <div className="photo-list-title-homepage"> הערכת מצב ברשות המקומית בחירום </div>
+                        <div className="photo-list-title-homepage"> הערכת מצב ברשות המקומית במצבי חירום </div>
                     </div>
                 </div>
                 <div id='line2' className='dot-line'>. . . . . . . . . . . . .   . . . . . . . . . . . . . . . . . . . . . . .  </div>
@@ -32,7 +35,7 @@ function HomePage() {
                 <div className="photo-list-item" onClick={() => navigate('/relations')}>
                     <div className="photo-list-content">
                         <img src={process.env.PUBLIC_URL + '/assets/images/logos-home/mimshak.png'} className="photo-list-image-homepage" alt="Relations" />
-                        <div className="photo-list-title-homepage">ממשקי עבודה בין מכלולים</div>
+                        <div className="photo-list-title-homepage">ממשקי עבודה בין המכלולים</div>
                     </div>
                 </div>
                 <div id='line3' className='dot-line'>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .  </div>

@@ -10,6 +10,7 @@
     padding-bottom: 25vw;
     color: white;
     font-family: 'Assistant', sans-serif;
+    direction: rtl;
   }
 
   .ogenIcon {
@@ -164,6 +165,7 @@
     padding: 2vw;
     color: white;
     font-family: 'Assistant', sans-serif;
+    direction: rtl;
   }
 
   .ogenIcon {
